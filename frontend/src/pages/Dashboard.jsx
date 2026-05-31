@@ -103,7 +103,7 @@ const Dashboard = () => {
           </div>
         ) : (
           <div className='divide-y divide-slate-50'>
-            {activities.map((activity)=>(
+            {activities.map((activity)=>( 
               <div key={activity._id} className='flex items-start gap-4 px-6 py-4 hover:bg-slate-50/50 transition-colors'>
 
               <div className='flex items-center justify-center size-9 rounded-xl shrink-0 mt-0.5 bg-zinc-100 text-zinc-600'>
